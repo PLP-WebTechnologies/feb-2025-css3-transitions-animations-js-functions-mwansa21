@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marvel Hero Selector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Choose Your Favorite Marvel Hero</h1>
+    
+    <select id="hero-select">
+      <option value="">-- Select a Hero --</option>
+      <option value="Iron Man">Iron Man</option>
+      <option value="Spider-Man">Spider-Man</option>
+      <option value="Black Widow">Black Widow</option>
+      <option value="Captain America">Captain America</option>
+    </select>
+
+    <button id="save-btn">Save Preference</button>
+    
+    <div id="result" class="hero-box">Your hero will appear here!</div>
+
+    <div class="hero-images">
+      <img src="images/iron man.jfif" alt="Iron Man" class="hero-img" id="Iron Man" />
+      <img src="images/spiderman.jfif" alt="Spider-Man" class="hero-img" id="Spider-Man" />
+      <img src="images/black widow.jfif" alt="Black Widow" class="hero-img" id="Black Widow" />
+      <img src="images/captain america.jfif" alt="Captain America" class="hero-img" id="Captain America" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
